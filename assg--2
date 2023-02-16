@@ -1,0 +1,12 @@
+#include<stdio.h>
+main()
+{
+	float i=1.00;
+	int n=0;
+	while(i<=2.00)
+	{
+		n=n+1;
+		printf("%d %.2f\n",n,i);
+		i=i+0.10;
+		
+	}
